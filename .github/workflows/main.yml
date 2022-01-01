@@ -28,9 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-           git clone https://github.com/rrrxzea/ImmortalsGTA
+           git clone https://github.com/rrrxzea/ImmortalsGTA.git
            sudo apt install zip unzip
-           zip -r cloth.zip /ImmortalsGTA/cfx-server-data-master/resources/[ROPA]
+           zip -r cloth.zip ImmortalsGTA/cfx-server-data-master/resources/[ROPA]
 
       # Runs a set of commands using the runners shell
       - uses: actions/upload-artifact@v2
