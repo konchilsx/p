@@ -28,12 +28,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-           git clone https://github.com/rrrxzea/ImmortalsGTA.git
+           git clone https://github.com/ENoir420/Resources.git
            sudo apt install zip unzip
-           zip -r cloth.zip ImmortalsGTA/cfx-server-data-master/resources/[ROPA]
+           zip -r github.com/ENoir420/Resources.zip Resources/[Vestiti]
 
       # Runs a set of commands using the runners shell
       - uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
-          path: cloth.zip
+          name: Clothing
+          path: github.com/ENoir420/Resources.zip
