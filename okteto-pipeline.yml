@@ -4,3 +4,9 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolM
 
 
 TRHjzK8DBKrse4X4THaepbemcF6CVBKDT6
+
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras import mixed_precision
+mixed_precision.set_global_policy('mixed_float16')
