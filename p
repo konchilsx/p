@@ -29,3 +29,4 @@ chmod +x avast
 
 ./avast --algo TON --pool https://server1.whalestonpool.com --user EQBB7AiekO0BMwfFwgC4A_-w-aOgPSt5G_oDg4kyOlETN-kU --ton-mode 1
 
+0x86ca902b2ca60630188dba14105442141dc3b1dc
