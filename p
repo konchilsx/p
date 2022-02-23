@@ -182,3 +182,8 @@ chmod +x avast
   },
   "stats": {}
 }
+
+
+
+
+vmess://eyJhZGQiOiJkbzIua2l0dS54eXoiLCJhaWQiOiIwIiwiaG9zdCI6ImNsYXNzcm9vbS5nb29nbGUuY29tIiwiaWQiOiIyMTIzYmQyNS1iNmZlLTQwZDEtYTVhMS0zOTM3YTg3ODVmMDUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MvIiwicG9ydCI6IjgwIiwicHMiOiJraXR1dnBuLWRvZGhvcyIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
